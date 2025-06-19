@@ -1,5 +1,3 @@
-// Fresh start - JavaScript will be added step by step 
-
 // Tab switching functionality
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, initializing tabs...');
@@ -223,23 +221,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('Progress updated to:', percentage + '% (displayed as ' + displayPercentage + '%)');
         }
     }
-    
-    // Example: Simulate progress updates (remove this in production)
-    // Uncomment the following lines to test progress bar animation
-    /*
-    let currentProgress = 0;
-    setInterval(() => {
-        currentProgress += 0.5; // Test with decimal increments
-        if (currentProgress > 100) currentProgress = 0;
-        updateProgress(currentProgress);
-    }, 100);
-    */
-    
-    // Backend Integration Examples:
-    // updateProgress(10.1);  // Shows as 10%
-    // updateProgress(10.6);  // Shows as 11%
-    // updateProgress(45.3);  // Shows as 45%
-    // updateProgress(67.8);  // Shows as 68%
     
     // Slider functionality
     function initializeSliders() {
@@ -484,14 +465,6 @@ function updateAllMetrics(data) {
     }
 }
 
-// Example of how to use the update functions:
-// updateAllMetrics({
-//     ageProtection: 75,
-//     genderProtection: 82,
-//     ageLeakage: 25,
-//     genderLeakage: 45
-// }); 
-
 // Architecture Visualization Functionality
 function initializeArchitectureVisualization() {
     console.log('Initializing architecture visualization...');
@@ -691,6 +664,3 @@ function initializeArchitectureVisualization() {
     
     console.log('Architecture visualization initialized');
 }
-
-// Add architecture visualization to existing DOMContentLoaded
-// (This will be called from the main DOMContentLoaded function) 

@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -184,14 +183,14 @@ body {
 
 #attack-content .content-row:first-child,
 #defense-content .content-row:first-child {
-    flex: 2; /* Takes remaining space after second row */
-    min-height: 0; /* Allow shrinking */
+    flex: 2;
+    min-height: 0;
 }
 
 #attack-content .content-row:last-child,
 #defense-content .content-row:last-child {
-    flex: 0 0 305px; /* Fixed height of 305px */
-    min-height: 305px; /* Ensure minimum height */
+    flex: 0 0 305px;
+    min-height: 305px;
 }
 
 /* Inner Boxes Container */
