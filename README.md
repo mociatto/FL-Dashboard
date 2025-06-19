@@ -159,5 +159,3 @@ This will display current dashboard state, active charts, and configuration.
 - Memory usage optimized for long-running sessions
 
 ---
-
-For questions or support, refer to the main HYBRIDVFL project documentation. 
